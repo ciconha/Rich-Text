@@ -49,4 +49,4 @@ Esse projeto foi desenvolvido para ter uma alternativa como digitador. Uma manei
 
 ---
 
-[link do repositório] [https://cronometro-inky-rho.vercel.app/]
+[link do repositório] [https://rich-text-liard.vercel.app/]
