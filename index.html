@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Rich-Text⛩️</title>
+</head>
+
+<body>
+
+    <div class="pixel">
+        <img src="https://clipground.com/images/gif-anime-png-10.gif">
+    </div>
+
+
+    <div class="container">
+        <div class="options">
+
+            <button id="bold" class="option-button format">
+                <i class="fa-solid fa-bold"></i>
+            </button>
+            <button id="italic" class="option-button format">
+                <i class="fa-solid fa-italic"></i>
+            </button>
+            <button id="underline" class="option-button format">
+                <i class="fa-solid fa-underline"></i>
+            </button>
+            <button id="strikethrough" class="option-button format">
+                <i class="fa-solid fa-strikethrough"></i>
+            </button>
+
+            <button id="insertImageButton">
+                <i class="fa-solid fa-image"></i>
+            </button>
+
+            <button id="superscript" class="option-button script">
+                <i class="fa-solid fa-superscript"></i>
+            </button>
+            <button id="subscript" class="option-button script">
+                <i class="fa-solid fa-subscript"></i>
+            </button>
+
+
+            <button id="insertOrderedList" class="option-button">
+                <i class="fa-solid fa-list-ol"></i>
+            </button>
+            <button id="insertUnorderedList" class="option-button">
+                <i class="fa-solid fa-list"></i>
+            </button>
+
+
+            <button id="undo" class="option-button">
+                <i class="fa-solid fa-rotate-left"></i>
+            </button>
+            <button id="redo" class="option-button">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+
+
+            <button id="createLink" class="adv-option-button">
+                <i class="fa-solid fa-link"></i>
+            </button>
+            <button id="unlink" class="option-button">
+                <i class="fa-solid fa-link-slash"></i>
+            </button>
+
+            <button id="saveToFileButton"><i class="fa-solid fa-floppy-disk"></i></button>
+
+
+            <button id="justifyLeft" class="option-button align">
+                <i class="fa-solid fa-align-left"></i>
+            </button>
+            <button id="justifyCenter" class="option-button align">
+                <i class="fa-solid fa-align-center"></i>
+            </button>
+            <button id="justifyRight" class="option-button align">
+                <i class="fa-solid fa-align-right"></i>
+            </button>
+            <button id="justifyFull" class="option-button align">
+                <i class="fa-solid fa-align-justify"></i>
+            </button>
+
+            <button id="indent" class="option-button spacing">
+                <i class="fa-solid fa-indent"></i>
+            </button>
+            <button id="outdent" class="option-button spacing">
+                <i class="fa-solid fa-outdent"></i>
+            </button>
+
+
+            <select id="formaBlock" class="adv-option-button">
+                <option value="H1">H1</option>
+                <option value="H2">H2</option>
+                <option value="H3">H3</option>
+                <option value="H4">H4</option>
+                <option value="H5">H5</option>
+                <option value="H6">H6</option>
+            </select>
+
+
+            <select id="fontName" class="adv-option-button"></select>
+            <select id="font-size" class="adv-option-button"></select>
+
+
+
+
+            <div id="text-input" contenteditable="true"></div>
+
+        </div>
+
+
+
+
+        <div id="imageControls" style="display: none;">
+            <label for="imageWidth">Largura:</label>
+            <input type="number" id="imageWidth" placeholder="px" min="10">
+
+            <label for="imageHeight">Altura:</label>
+            <input type="number" id="imageHeight" placeholder="px" min="10">
+
+            <label for="imageAlignment">Alinhamento:</label>
+            <select id="imageAlignment">
+                <option value="left">Esquerda</option>
+                <option value="center">Centro</option>
+                <option value="right">Direita</option>
+            </select>
+
+           
+        </div>
+
+
+
+
+</body>
+
+</html>

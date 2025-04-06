@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/16/a7/92/16a7920a659a1b01dc237de0c63f3e52.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pixel img{
+    position: absolute;
+    margin-top: 70px;
+    left: 70px;
+    max-width: 19%;
+   
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 79, 79, 0.3);
+    z-index: -1;
+}
+
+.container {
+    background-color: rgb(74, 192, 143);
+    width: 89vmin;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px (7, 20, 35, 0.2);
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    height: 28px;
+    width: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px solid;
+    border: nome;
+    background-color: rgb(74, 192, 143);
+    outline: nome;
+    color: #020929;
+}
+
+section {
+    padding: 7px;
+    border: 1px solid #020929;
+    border-radius: 3px;
+}
+
+.options label,
+.options section {
+    font-family: "Poppins", sans-serif;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[text="color"] {
+
+    -webkit-appearance: none;
+    -moz-appearance: nome;
+    appearance: nome;
+    background-color: transparent;
+    width: 44px;
+    height: 28px;
+    border: nome;
+    cursor: pointer;
+
+}
+
+
+input[type="color"]::-webkit-color-swatch {
+
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px rgb(74, 192, 143), 0 0 0 3px #0e31d1;
+
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px rgb(74, 192, 143), 0 0 0 3px #0e31d1;
+
+}
+
+#text-input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 300px;
+    overflow: visible;
+    word-wrap: break-word;
+
+
+
+
+
+
+}
+
+
+#text-input img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+
+}
+
+
+.active {
+    background-color: #e0e9ff;
+}
+
+
+#text-input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 300px;
+    max-width: 100%;
+}
+
+
+#text-input img {
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+#imageControls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
